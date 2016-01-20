@@ -10,4 +10,10 @@ namespace myDotNet5App.Models
     public class ApplicationUser : IdentityUser
     {
     }
+
+    public class Schema
+    {
+        public string schema { get; set; }
+        public string name { get; set; }
+    }
 }

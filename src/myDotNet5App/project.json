@@ -26,7 +26,6 @@
         "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
         "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
         "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final"
-        
     },
 
   "commands": {
@@ -38,11 +37,9 @@
     "dnx451": {
         "dependencies": {
             "Npgsql": "3.0.5"
-        }
-    },
-    "dnxcore50": {
-        "dependencies": {
-            "Npgsql": "3.1.0-alpha5"
+        },
+        "frameworkAssemblies": {
+            "System.Data": "4.0.0.0"
         }
     }
   },
